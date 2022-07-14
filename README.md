@@ -99,6 +99,9 @@ mash sketch -r -g 43M -s 1000000 -m 3 -k 21 -I $SAMPLE -o $SAMPLE $SAMPLE.R1.fas
 ```
 The output files with the Mash sketches can be located [here](/data/Mash_kmer_sketches/)
 
+
+Moreover, kmer-based estimated coverages per sample are summarized in [this table](/data/kmer_based_estimated_coverage.tsv)
+
 We then computed pariwise mash distances
 ```bash
 # Options
