@@ -134,4 +134,11 @@ library(ape)
 tree <- nj((m))
 plot(tree)
 ```
-The trees can be found in the [data folder](/data/)
+The trees and supplementary files can be found in the [data folder](/data/)  
+
+Finally, to test the robustness of the method, the sketch size was reduced from 1M to 100K size and the number of required copies per kmer was reduced from 3 to 2
+
+```bash
+mash sketch -r -g 43M -s 100000 -m 2 -k 21 -I $SAMPLE -o $SAMPLE $SAMPLE.R1.fastq.gz $SAMPLE.R2.fastq.gz
+```
+The produced trees can be found in [this directory](/data/Sketch_100K_minMer2/)
