@@ -1,8 +1,8 @@
 # Magnaporthe-Germany
 
-Methods for the manuscript: "The blast fungus *Magnaporthe* (Syn. *Pyricularia*) occurs in Germany on wild grasses and has the capacity to infect cereal crops. AC. Barragán, SM. Latorre, A. Harant, J. Win, P. Mock, A. Malmgren, HA. Burbano, S. Kamoun, and T. Langner"
+Methods for the manuscript: "Wild grass isolates of *Magnaporthe* (Syn. *Pyricularia*) spp. from Germany can cause blast disease on cereal crops". AC. Barragán, SM. Latorre, PG. Mock, A. Harant, J. Win, A. Malmgren, HA. Burbano, S. Kamoun, and T. Langner"
 
-DOI: XX.XX.XX
+DOI: (https://doi.org/10.1101/2022.08.29.505667)
 
 ## 1. Mapping, variant calling and genetic clustering of blast fungus isolates
 Requirements:
